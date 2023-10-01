@@ -1,0 +1,67 @@
+.video-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.video-card {
+  width: 300px;
+  margin-bottom: 20px;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  border-radius: 10px; /* Rounded edges */
+
+  transition: transform 0.2s ease-in-out;
+}
+
+.video-card:hover {
+  transform: scale(1.05);
+}
+
+.thumbnail {
+  width: 100%;
+  height: 168px;
+  border-radius: 10px; /* Rounded edges */
+}
+
+.video-info {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.channel-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom:90px;
+}
+
+.video-details {
+  flex-grow: 1;
+}
+
+.video-title {
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+}
+
+.channel-name {
+  color: #777;
+  font-size: 14px;
+}
+
+.likes-views {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+
+
+.views {
+  margin-left: 10px;
+}
